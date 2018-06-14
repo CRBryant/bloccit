@@ -1,1 +1,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.social-btn {
+  display: inline-block;
+  position: absolute;
+  top: 3px;;
+  right: 10px;
+  width: 80px;
+  background: #44accf;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+}
+.social-btn:hover {
+  background: #f95b34;
+}
