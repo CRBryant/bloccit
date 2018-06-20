@@ -74,6 +74,10 @@ group :development, :test do
   gem 'rails-controller-testing'
 end
 
+group :development do
+  gem 'pry-rails'
+end
+
 gem 'bootstrap-sass'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
